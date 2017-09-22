@@ -1,0 +1,75 @@
+/*why id the background image not loading?*/
+body {
+	background-image: url("../images/background_img.jpg");
+	
+}	
+
+p {
+	color: green;
+}
+.zero {
+	float: left;
+
+}
+.one {
+	background-color: orange;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	display: inline-block;
+	margin: 5px;
+}
+.two {
+	margin: 5px;
+	background-color: #FEE2C0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: bottom;
+	/*need to fix the lines for the background color*/
+}
+.threefour {
+	float: left;
+
+}
+.three {
+	margin: 5px;
+	padding-right: 200px;
+	background-color: 	#65EF96;
+	float: left;
+	display: inline-block;
+	font-size: 50px;
+	position: top;
+}
+.four {
+	margin: 5px;
+	background-color: #16F5EB;
+	float: right;
+	align-items: left;
+}
+.five {
+	
+	
+
+}
+
+
+.sixseven {
+	display: inline-block;
+}
+.six {
+	margin: 5px;
+	background-color: #1EB499;
+	
+	padding-right: 100px;
+
+
+}
+
+.seven{
+	margin: 5px;
+	background-color: #1EB499;
+	padding-bottom: 50px;
+	padding-right: 100px;
+	
+}
