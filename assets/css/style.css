@@ -6,9 +6,7 @@ body {
 
 p {
 	color: green;
-}
-.zero {
-	float: left;
+
 
 }
 .one {
@@ -19,6 +17,8 @@ p {
 	font-size: 24px;
 	display: inline-block;
 	margin: 5px;
+
+
 }
 .two {
 	margin: 5px;
@@ -26,26 +26,34 @@ p {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	float: bottom;
+	display: inline-block;
+
+
 	/*need to fix the lines for the background color*/
 }
 .threefour {
 	float: left;
 
 }
-.three {
+#three {
 	margin: 5px;
 	padding-right: 200px;
 	background-color: 	#65EF96;
 	float: left;
 	display: inline-block;
-	font-size: 50px;
+	font-size: 38px;
 	position: top;
+	height: 160px;
+	vertical-align: top;
+	position: top;
+
 }
 .four {
 	margin: 5px;
 	background-color: #16F5EB;
 	float: right;
 	align-items: left;
+	height: 160px;
 }
 .five {
 	
