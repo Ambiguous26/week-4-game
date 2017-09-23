@@ -1,40 +1,41 @@
-/*why id the background image not loading?*/
 body {
 	background-image: url("../images/background_img.jpg");
-	
 }	
 
 p {
 	color: green;
-
-
 }
-.one {
+
+.row {
+	margin: 10px 0px 10px 0px;
+}	
+
+.row:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+#header {
 	background-color: orange;
 	color: white;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-size: 24px;
+	font-size: 40px;
 	display: inline-block;
 	margin: 5px;
-
-
 }
+
 .two {
 	margin: 5px;
 	background-color: #FEE2C0;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	float: bottom;
 	display: inline-block;
-
-
-	/*need to fix the lines for the background color*/
+	width: 33%;
+	font-weight: bold;
 }
-.threefour {
-	float: left;
 
-}
 #three {
 	margin: 5px;
 	padding-right: 200px;
@@ -44,40 +45,40 @@ p {
 	font-size: 38px;
 	position: top;
 	height: 160px;
-	vertical-align: top;
-	position: top;
-
 }
+
 .four {
+	position: relative;
+	display: inline-block;	
 	margin: 5px;
 	background-color: #16F5EB;
-	float: right;
+	float: left;
 	align-items: left;
 	height: 160px;
-}
-.five {
-	
-	
-
+	color: black;
+	font-weight: bold;
 }
 
-
-.sixseven {
-	display: inline-block;
-}
 .six {
 	margin: 5px;
 	background-color: #1EB499;
-	
-	padding-right: 100px;
-
-
+	display: inline-block;
+	width: 200px;
+	color: white;
 }
 
 .seven{
 	margin: 5px;
 	background-color: #1EB499;
 	padding-bottom: 50px;
-	padding-right: 100px;
-	
+	display: inline-block;
+	width: 200px;
+	color: white;
+	font-size: 38px;
+}
+
+img {
+	height: 100px;
+	padding: 0px;
+	background-color: white;
 }
